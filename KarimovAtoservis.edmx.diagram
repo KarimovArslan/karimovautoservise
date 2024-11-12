@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d3981814e74b42ffa1b93354d538108c" Name="Diagram1">
+        <EntityTypeShape EntityType="KarimovAutoservisModel.AttachedProduct" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.Client" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.ClientService" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.DocumentByService" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.Gender" Width="1.5" PointX="0.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.Manufacturer" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.Order" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.OrderProduct" Width="1.5" PointX="12.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.PickupPoint" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.Product" Width="1.5" PointX="10" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.ProductPhoto" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.ProductSale" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.Role" Width="1.5" PointX="5.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.Service" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.ServicePhoto" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.sysdiagrams" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.Tag" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarimovAutoservisModel.User" Width="1.5" PointX="8" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="KarimovAutoservisModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="KarimovAutoservisModel.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="KarimovAutoservisModel.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="KarimovAutoservisModel.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="KarimovAutoservisModel.FK__OrderProd__Order__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="KarimovAutoservisModel.FK_Order_PickupPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="KarimovAutoservisModel.FK_OrderProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="KarimovAutoservisModel.FK__User__UserRole__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="KarimovAutoservisModel.FK__User__UserRole__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="KarimovAutoservisModel.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="KarimovAutoservisModel.TagOfClient" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

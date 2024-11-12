@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karimov_Autoservice", "Karimov_Autoservice.csproj", "{94D807D8-B756-4CF5-8B08-6B3C0056C25D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94D807D8-B756-4CF5-8B08-6B3C0056C25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D807D8-B756-4CF5-8B08-6B3C0056C25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D807D8-B756-4CF5-8B08-6B3C0056C25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D807D8-B756-4CF5-8B08-6B3C0056C25D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {518C0629-432C-4F02-8A87-2F7F0DCFC713}
+	EndGlobalSection
+EndGlobal
